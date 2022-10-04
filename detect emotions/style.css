@@ -1,0 +1,66 @@
+html{
+width: auto;
+height: auto;
+background-color:WhiteSmoke;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 15% auto auto 15%;
+    grid-template-rows: 15% 10% 25% auto 15%;
+  }
+
+.title{
+    grid-column: 2 / span 2;
+    grid-row: 1;
+    display: block;
+    text-align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:auto;
+    line-height:1em;
+    margin:auto;
+    text-shadow: 1px 1px 1px Thistle, 2px 2px 1px Thistle;
+    justify-self:start;
+}
+
+h2{
+    grid-column: 2 / span 2;
+    grid-row: 2;
+    margin: auto;
+    display: block;
+    justify-self:end;
+}
+
+
+.video-place{
+    grid-column: 2 / span 2;
+    grid-row: 3/ span 2;
+    display: block;
+    width: auto;
+    height:auto;
+    justify-self: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
+
+
+.button{
+    grid-column: 2 / span 2;
+    grid-row: 5;
+    justify-self: center;
+    display: block;
+    text-align: center;
+    margin: auto;
+    background-color: Thistle;
+    padding: 15px 32px;
+    border-radius: 4px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.button:hover(:enabled){
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
